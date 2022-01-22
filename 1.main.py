@@ -1,7 +1,7 @@
-
+# Created by Hasin Farabi
+# Updated on 23.01.2023
 
 # ! , . ? / ) ( [ ] { } _ " : ; - + = \"
-
 import os
 
 def home() :
@@ -189,26 +189,6 @@ def choise7(filehandle,filename) :
     if tmp == 0 : return 0
     elif tmp == 1 : return 1
 
-#def choise8(filehandle,filename) :
-#    os.system("cls")
-#    print("\t\tCurrently on",filename," file .\n")
-#    str = input("\t\treplace :  ")
-#    str2 = input("\t\twith  :  ")
-#    for line in filehandle :
-#        line = line.replace(str,str2)
-#        l.append(line)
-#
-#    filehandle.close()
-#    try :
-#        filehandle = open(filename,'w')
-#        for line in l :
-#            filehandle.write(line)
-#        print("\t    ",str,"successfully replaced to",str2)
-#        print("\t\tError . ")
-#    tmp = home2()
-#    if tmp == 0 : return 0
-#    elif tmp == 1 : return 1
-
 
 os.system("cls")
 while True :
@@ -259,7 +239,3 @@ while True :
         temp = choise7(filehandle,filename)
         os.system("cls")
         if temp == 0 : break
-#    elif choise == 8 :
-#        temp = choise8(filehandle,filename)
-#        os.system("cls")
-#        if temp == 0 : break
